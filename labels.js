@@ -73,7 +73,7 @@ prompt.get(schema, function (err, input) {
         if (err) return log(error(err));
 
         data.forEach(function(label) {
-            log(success('[SUCCESS]: ' + User + '/' + Repo) + label.name + ' label is toegevoegd');
+            log(success('[SUCCESS]: ' + User + '/' + Repo + ' ') + label.name + ' label is toegevoegd');
         });
     });
 });
