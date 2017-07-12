@@ -1,0 +1,29 @@
+{
+  "name": "activismebe-labeller",
+  "version": "1.0.0",
+  "description": "Our Github Labeller for github ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "add-labels": "node labels.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CPSB/Labeller.git"
+  },
+  "keywords": [
+    "Github",
+    "Labels"
+  ],
+  "author": "Tim Joosten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CPSB/Labeller/issues"
+  },
+  "homepage": "https://github.com/CPSB/Labeller#readme",
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "github-labeller": "^1.3.7",
+    "prompt": "^1.0.0"
+  }
+}
