@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "add-labels": "node labels.js"
+    "add-labels": "node labels.js",
+    "remove-labels": "node delete-labels.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,9 @@
   },
   "homepage": "https://github.com/CPSB/Labeller#readme",
   "dependencies": {
+    "bluebird": "^3.5.0",
     "chalk": "^2.0.1",
+    "github": "^9.2.0",
     "github-labeller": "^1.3.7",
     "prompt": "^1.0.0"
   }
