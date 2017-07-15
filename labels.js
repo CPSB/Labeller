@@ -63,9 +63,9 @@ prompt.start();
 
 // Start Questioning in the prompt.
 prompt.get(schema, function (err, input) {
-    var User  = input.Owner;
-    var Repo  = input.Repository;
-    var Token = input.Token;
+    var User  = input.Owner.trim();
+    var Repo  = input.Repository.trim();
+    var Token = input.Token.trim();
 
     GitHubLabeller(labels, { repo: User + "/" + Repo, token: Token}, function (err, data) {
         log(); // Needed for the empty line between prompt and output.
